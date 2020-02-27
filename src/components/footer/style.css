@@ -1,0 +1,28 @@
+.footer{
+    background-color: rgba(250, 126, 10, 0.842);
+    color: #fff;
+    display:grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    
+}
+
+.footer ul{
+    list-style: none;
+    grid-column: 3/4;
+    align-content: center;
+}
+
+.footer ul li{
+    font-size: 12px;
+}
+
+.footer strong:hover{
+    color: #000;
+}
+
+#footer-box{
+   align-self: center;
+   justify-self: center;
+
+}
+

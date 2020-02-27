@@ -1,0 +1,86 @@
+.main{
+    
+    background-color: rgba(250, 126, 10, 0.664);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 30% 25% 45%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: none;
+    padding-bottom: 25px;
+}
+.main img {
+    width:150px;
+    height:80px;
+    align-self: center;
+    justify-self: center;
+
+}
+.main ul {
+    list-style: none;
+    
+    align-self: center;
+    justify-self: center;  
+    grid-column: 3/4;
+}
+.main ul li {
+
+    
+    cursor: pointer;
+    display: inline;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.main ul li a {
+    color: #FFF;
+}
+
+.main ul li a:hover{
+    color: #000;
+}
+
+
+form.box-login{
+   
+    grid-column: 3/4;
+    align-self: center;
+    justify-self: center;
+    padding: 2px;
+
+}
+
+form.box-login label{
+    font-size: 17px;
+    color:rgb(255, 254, 254) ;
+    margin-left: 20px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+form.box-login input{
+    height:25px;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+
+}
+form.box-login button{
+    margin-left: 20px;
+    height: 25px;
+    width: 60px;
+    background-color: rgb(253, 253, 252);
+    border: 0;
+    border-radius: 5px;
+    color: #000;
+}
+#box-title{
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    justify-self: center;
+    align-self: center;
+    
+
+}

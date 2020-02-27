@@ -1,0 +1,16 @@
+.chamada{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(61, 57, 57, 0.664);
+    height: 85px;
+    width:100%;
+}
+
+
+#box-chamada h1{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}

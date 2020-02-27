@@ -1,0 +1,40 @@
+.sobre-container{
+    display: flex;
+    height: 400px;
+    width: 100%; 
+    justify-content: center;
+
+    }
+
+ #foto_bg{
+  
+     border-radius: 50%;
+     height: 250px;
+     width: 250px;
+     margin-top: 55px;
+     background-color: rgb(224, 224, 224);
+     margin-right: 55px;
+ }   
+
+ #foto_bg strong{
+     color: rgb(107, 107, 107);
+     
+ }
+
+ #foto-text{
+
+    width: 250px;
+    height: 400px;
+    align-self: center;
+    justify-self: center;
+ }
+
+#foto-text strong{
+    color: rgb(126, 122, 122);
+    font-weight: bold;
+}
+
+ #foto-text p{
+     font-size: 14px;
+     font-style: italic;
+ }

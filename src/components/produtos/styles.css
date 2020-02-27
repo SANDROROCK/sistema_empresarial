@@ -1,0 +1,43 @@
+.produtos-contaneir{
+   display: flex;
+   height: 450px;
+   flex: 1;
+   flex-flow: row nowrap;
+   justify-content: space-evenly; 
+
+}
+
+#box-linha{
+   
+   width: 33%;
+   justify-self: center;
+   
+}
+
+#box-linha h1{
+
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#img-box{
+    text-align: center;
+}
+ 
+#img-box img{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 16px;
+    
+}
+#text-box{
+
+    font-size: 14px;
+    color: rgb(94, 92, 92);
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
